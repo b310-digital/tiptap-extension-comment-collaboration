@@ -1,0 +1,17 @@
+# Ignore all
+/*
+
+# Now whitelist:
+!/.github/
+!/src/
+!.dockerignore
+!.gitignore
+!.prettierrc
+!docker-compose.yml
+!Dockerfile
+!eslint.config.mjs
+!LICENSE
+!package.json
+!package-lock.json
+!README.md
+!tsconfig.json
