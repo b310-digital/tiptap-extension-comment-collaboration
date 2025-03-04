@@ -21,6 +21,12 @@
     "type": "git",
     "url": "https://github.com/b310-digital/tiptap-extension-comment-collaboration"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "author": "B310 Digital GmbH",
   "license": "MIT",
   "description": "comment collaboration extension for tiptap"
