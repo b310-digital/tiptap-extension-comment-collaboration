@@ -13,9 +13,6 @@
     "vite": "^6.1.1",
     "uuid": "^11.1.0"
   },
-  "exports": {
-    "./*": "./dist/*.js"
-  },
   "scripts": {
     "clean": "rm -rf dist",
     "build": "tsc --build"
