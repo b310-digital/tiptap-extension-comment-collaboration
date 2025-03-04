@@ -1,5 +1,5 @@
 {
-  "name": "@packages/tiptap-extension-comment-collaboration",
+  "name": "tiptap-extension-comment-collaboration",
   "version": "0.0.1",
   "type": "module",
   "types": "dist/index.d.ts",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/b310/tiptap-extension-comment-collaboration"
+    "url": "https://github.com/b310-digital/tiptap-extension-comment-collaboration"
   },
   "author": "B310 Digital GmbH",
   "license": "MIT",
