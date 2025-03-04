@@ -15,7 +15,8 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "prepare": "tsc --build"
   },
   "repository": {
     "type": "git",
