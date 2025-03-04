@@ -1,9 +1,9 @@
 import { Mark } from '@tiptap/core';
 import { v4 as uuidv4 } from 'uuid';
 import { Plugin } from '@tiptap/pm/state';
-import { CommentItem, CommentOptions, CommentStorage, CommentUser } from './types';
-import { createComment, createReply, debouncedUpdateCommentsPos } from './utils';
-import { DEFAULT_COLOR_CLASS, Y_MAP_COMMENT_KEY } from './constants';
+import { CommentItem, CommentOptions, CommentStorage, CommentUser } from './types.js';
+import { createComment, createReply, debouncedUpdateCommentsPos } from './utils.js';
+import { DEFAULT_COLOR_CLASS, Y_MAP_COMMENT_KEY } from './constants.js';
 
 /**
  * Extends the Commands interface to add comment-related commands
