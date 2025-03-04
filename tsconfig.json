@@ -14,9 +14,6 @@
     "declarationDir": "dist",
     "skipLibCheck": true,
     "strictNullChecks": true,
-    "types": [
-      "vitest/globals"
-    ]
   },
   "include": ["./src/*.ts"],
   "exclude": [

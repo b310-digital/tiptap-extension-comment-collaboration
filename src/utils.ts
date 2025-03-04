@@ -3,7 +3,7 @@ import { CommentItem, CommentOptions, CommentStorage, CommentType, CommentUser, 
 import { DEFAULT_COMMENT_OPTIONS } from "./constants";
 
 export const debounce = (fn: (...args: unknown[]) => void, timeout = 300) => {
-  let timer: NodeJS.Timeout;
+  let timer: number;
 
   return function (...args: unknown[]) {
     clearTimeout(timer);

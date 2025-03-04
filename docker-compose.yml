@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      target: development
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/home/node/app
