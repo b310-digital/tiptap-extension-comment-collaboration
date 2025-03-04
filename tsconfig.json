@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-    "module": "NodeNext",
+    "module": "ESNext",
     "esModuleInterop": true,
     "target": "ESNext",
     "lib": [
       "esnext",
       "dom"
     ],
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "bundler",
     "sourceMap": true,
     "outDir": "dist",
     "declaration": true,
