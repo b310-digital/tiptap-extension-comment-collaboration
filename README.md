@@ -1,6 +1,8 @@
 # TipTap Comment Collaboration 
 TipTap extension that brings proper support for collaborative comments. It is used actively within [GroupWriter](https://github.com/b310-digital/groupwriter-frontend).
 
+Attention: Moved back to the [GroupWriter](https://github.com/b310-digital/groupwriter-frontend) repository to ease active development. If you are interested in this package, please write us so we can release this on npm as a package.
+
 ## Main Features:
 - Create / Edit / Delete Comments and Suggestions
 - Comments get a calculated position so it is possible to place them next to the text where they belong
